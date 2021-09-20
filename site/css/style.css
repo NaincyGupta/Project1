@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 10px;
+}
+body {
+  background-color: lightsteelblue;
+  font-size: 130%;
+}
+h1 {
+  color: darkred;
+  font-size: 36px;
+  text-align: center;
+}
+
+
+#menu1 {
+    border: 1px solid black;
+    border-top: 0px;
+    background-color: chartreuse;
+    color: rgb(136, 9, 9);
+    height: 35px;
+    width: 33.3%;
+    float: right;  
+}
+
+
+#menu2 {
+    border: 1px solid black;
+    border-top: 0px;
+    background-color: rgb(119, 194, 245);
+    height: 35px;
+    float: right;
+    width: 33.3%;
+    box-sizing: border-box;   
+}
+
+
+#menu3 {
+    border: 1px solid black;
+    border-top: 0px;
+    background-color: rgb(250, 56, 201);
+    color: rgb(21, 3, 99);
+    height: 35px;
+    float: right;
+    width: 33.3%;
+    box-sizing: border-box;
+
+}
+
+
+.col-lg-1 {
+  font-size: 15px;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: floralwhite;
+  color: darkred;
+  height: 100px;
+
+}
+.col-lg-2 {
+  font-size: 15px;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: floralwhite;
+  color: darkred;
+  height: 100px;
+}
+.col-lg-3 {
+  font-size: 15px;
+  font-weight: bolder;
+  font-style: italic;
+  background-color: floralwhite;
+  color: darkred;
+  height: 100px;
+}
+
+/********** Large devices only **********/
+
+@media (min-width: 1200px) {
+  .col-lg-1, .col-lg-2, .col-lg-3
+   {
+    float: left;
+    border: 1px solid green;
+   }
+  .col-lg-1 {
+    width: 30%;
+  }
+  .col-lg-2 {
+     width: 30%;
+  }
+  .col-lg-3 {
+      width: 30%;
+  }
+  
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+ .col-lg-1, .col-lg-2, .col-lg-3
+   {
+    float: left;
+    border: 1px solid green;
+   }
+  .col-lg-1 {
+    width: 40%;
+  }
+  .col-lg-2 {
+     width: 40%;
+  }
+  .col-lg-3 {
+      width: 80%;
+  }
+  
+}
+
+
+  /********** small devices only **********/
+@media (max-width: 991px) {
+ .col-lg-1, .col-lg-2, .col-lg-3
+   {
+    float: left;
+    border: 1px solid green;
+   }
+  .col-lg-1 {
+    width: 80%;
+  }
+  .col-lg-2 {
+     width: 80%;
+  }
+  .col-lg-3 {
+      width: 80%;
+  }
+  
+}
